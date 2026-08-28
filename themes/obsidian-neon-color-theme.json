@@ -210,11 +210,7 @@
     "editorGroupHeader.noTabsBackground": "#0f0f0f",
     "tab.unfocusedActiveBorder": "#444444",
     "tab.unfocusedActiveBorderTop": "#444444",
-    "editorGhostText.foreground": "#5A4B81cc",
-    "editorInlayHint.foreground": "#5A4B81",
-    "editorInlayHint.background": "#19152566",
-    "editorInlayHint.typeForeground": "#78D1E1",
-    "editorInlayHint.parameterForeground": "#E89E64"
+    "editorGhostText.foreground": "#5A4B81cc"
   },
   "tokenColors": [
     {
