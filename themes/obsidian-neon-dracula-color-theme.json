@@ -205,8 +205,13 @@
     "editor.lineHighlightBackground": "#8854F115",
     "tab.activeBorder": "#a855f7",
     "editorGroupHeader.noTabsBackground": "#0f0f0f",
-    "tab.unfocusedActiveBorder": "#444",
-    "tab.unfocusedActiveBorderTop": "#444"
+    "tab.unfocusedActiveBorder": "#444444",
+    "tab.unfocusedActiveBorderTop": "#444444",
+    "editorGhostText.foreground": "#6272A4cc",
+    "editorInlayHint.foreground": "#6272A4",
+    "editorInlayHint.background": "#282A3666",
+    "editorInlayHint.typeForeground": "#8BE9FD",
+    "editorInlayHint.parameterForeground": "#FFB86C"
   },
   "tokenColors": [
     {
@@ -497,7 +502,8 @@
         "wildcard.comment"
       ],
       "settings": {
-        "foreground": "#6272A4"
+        "foreground": "#6272A4",
+        "fontStyle": "italic"
       }
     },
     {
@@ -508,7 +514,8 @@
         "comment.block.documentation storage.type.class"
       ],
       "settings": {
-        "foreground": "#FF79C6"
+        "foreground": "#6272A4",
+        "fontStyle": "italic"
       }
     },
     {
@@ -517,7 +524,7 @@
         "comment.block.documentation entity.name.type"
       ],
       "settings": {
-        "foreground": "#8BE9FD",
+        "foreground": "#6272A4",
         "fontStyle": "italic"
       }
     },
@@ -527,7 +534,8 @@
         "comment.block.documentation entity.name.type punctuation.definition.bracket"
       ],
       "settings": {
-        "foreground": "#8BE9FD"
+        "foreground": "#6272A4",
+        "fontStyle": "italic"
       }
     },
     {
@@ -536,7 +544,7 @@
         "comment.block.documentation variable"
       ],
       "settings": {
-        "foreground": "#FFB86C",
+        "foreground": "#6272A4",
         "fontStyle": "italic"
       }
     },
@@ -602,7 +610,8 @@
         "keyword.operator.function.infix"
       ],
       "settings": {
-        "foreground": "#50FA7B"
+        "foreground": "#50FA7B",
+        "fontStyle": "bold"
       }
     },
     {
@@ -647,7 +656,8 @@
         "punctuation.definition.keyword"
       ],
       "settings": {
-        "foreground": "#FF79C6"
+        "foreground": "#FF79C6",
+        "fontStyle": "italic"
       }
     },
     {
@@ -698,7 +708,8 @@
         "support.type.property-name"
       ],
       "settings": {
-        "fontStyle": "regular"
+        "fontStyle": "bold",
+        "foreground": "#50FA7B"
       }
     },
     {
@@ -818,7 +829,7 @@
         "source.groovy storage.type.def"
       ],
       "settings": {
-        "fontStyle": "regular",
+        "fontStyle": "italic",
         "foreground": "#FF79C6"
       }
     },
@@ -975,7 +986,8 @@
         "string.quoted.docstring.multi.python constant.character.escape"
       ],
       "settings": {
-        "foreground": "#6272A4"
+        "foreground": "#6272A4",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1148,7 +1160,8 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#FF79C6"
       },
       "name": "Custom (comment, keyword.control, storage.type, keyword.operator.logical)"
     },
@@ -1207,5 +1220,58 @@
       },
       "name": "Custom (constant.numeric)"
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "variable": "#F8F8F2",
+    "variable.readonly": "#BD93F9",
+    "variable.defaultLibrary": "#8BE9FD",
+    "property": "#F8F8F2",
+    "property.readonly": "#BD93F9",
+    "function": {
+      "foreground": "#50FA7B",
+      "fontStyle": "bold"
+    },
+    "function.defaultLibrary": {
+      "foreground": "#50FA7B",
+      "fontStyle": "bold"
+    },
+    "method": {
+      "foreground": "#50FA7B",
+      "fontStyle": "bold"
+    },
+    "method.defaultLibrary": {
+      "foreground": "#50FA7B",
+      "fontStyle": "bold"
+    },
+    "keyword": {
+      "foreground": "#FF79C6",
+      "fontStyle": "italic"
+    },
+    "keyword.control": {
+      "foreground": "#FF79C6",
+      "fontStyle": "italic"
+    },
+    "comment": {
+      "foreground": "#6272A4",
+      "fontStyle": "italic"
+    },
+    "string": "#F1FA8C",
+    "number": "#BD93F9",
+    "type": "#8BE9FD",
+    "type.defaultLibrary": "#8BE9FD",
+    "class": {
+      "foreground": "#BD93F9",
+      "fontStyle": "bold"
+    },
+    "interface": "#8BE9FD",
+    "enum": "#8BE9FD",
+    "enumMember": "#BD93F9",
+    "parameter": {
+      "foreground": "#FFB86C",
+      "fontStyle": "italic"
+    },
+    "operator": {
+      "fontStyle": "italic"
+    }
+  }
 }

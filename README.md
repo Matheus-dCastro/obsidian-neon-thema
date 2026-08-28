@@ -4,12 +4,21 @@
 
 ---
 
-## ✨ Features
+## 🎨 Themes Included
 
-- **Deep Obsidian Workbench:** Clean, distraction-free UI inspired by Omni Theme.
-- **Electric Neon Syntax:** High-legibility token coloring directly inspired by Dracula Theme.
-- **Eye Care & High Contrast:** Carefully balanced contrast ratios for long coding sessions.
-- **Multi-language Support:** Optimized highlights for Python, C#, JavaScript, TypeScript, React, HTML, CSS, and more.
+Obsidian Neon comes with **2 theme variants**:
+
+1. **Obsidian Neon (Default)** — Omni-inspired deep obsidian canvas (`#191525`) combined with ultra-crisp neon syntax.
+2. **Obsidian Neon (Dracula)** — Dracula-infused dark aesthetics with high-contrast neon accents and signature purple glow.
+
+---
+
+## ✨ Key Highlights
+
+- **Ghost Letters & Italic Accents:** Elegant cursive/italic styling for comments, keywords, control flow, and storage modifiers.
+- **Electric Neon Syntax:** Vivid function definitions in neon green (`#50FA7B`), keywords in hot pink (`#FF79C6`), numbers in violet (`#BD93F9`), and strings in soft yellow (`#F1FA8C`).
+- **Semantic Highlighting Enabled:** Full support for modern semantic tokens across TypeScript, JavaScript, Python, C#, Rust, Go, and more.
+- **Deep Obsidian Workbench:** Omni-inspired UI with custom borders, glowing cursors (`#9d54f1`), and clean tab separation.
 
 ---
 
@@ -26,3 +35,24 @@
 3. Type:
    ```text
    ext install Alomyr.obsidian-neon
+   ```
+4. Choose your preferred variant: **Obsidian Neon** or **Obsidian Neon (Dracula)** via `Ctrl + K, Ctrl + T`.
+
+---
+
+## ⚙️ Recommended Settings
+
+For the ultimate visual experience (with ligatures, smooth caret animations, and full font highlights):
+
+```json
+{
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.letterSpacing": 0.5,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true
+}
+```

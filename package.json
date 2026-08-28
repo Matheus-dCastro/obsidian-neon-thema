@@ -2,8 +2,12 @@
   "name": "obsidian-neon",
   "displayName": "Obsidian Neon",
   "description": "A dark, high-contrast theme fusing Omni's deep interface with vibrant Dracula neon syntax.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "Alomyr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matheus-dCastro/obsidian-neon-thema.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -16,6 +20,11 @@
         "label": "Obsidian Neon",
         "uiTheme": "vs-dark",
         "path": "./themes/obsidian-neon-color-theme.json"
+      },
+      {
+        "label": "Obsidian Neon (Dracula)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obsidian-neon-dracula-color-theme.json"
       }
     ]
   }

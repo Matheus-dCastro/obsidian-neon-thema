@@ -2,8 +2,15 @@
 
 All notable changes to the "obsidian-neon" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.1.0]
 
-## [Unreleased]
+### Added
+- **Dual Theme Support**: Package now distributes both **Obsidian Neon** and **Obsidian Neon (Dracula)** variants.
+- **Ghost Letters & Italic Syntax**: Enhanced cursive/italic styling for comments, docstrings, keywords, storage types, and Python control flow.
+- **Full Semantic Token Colors**: Native semantic highlighting for functions (bold neon green), keywords (italic hot pink), parameters, variables, and constants.
+- **Glowing UI Enhancements**: Custom cursor glow, inlay hint coloring, and ghost text support.
 
-- Initial release
+## [1.0.0]
+
+- Initial release of Obsidian Neon theme.
+
