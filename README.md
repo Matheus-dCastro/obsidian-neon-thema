@@ -1,16 +1,28 @@
-# obsidian-neon README
+# 🌌 Obsidian Neon
 
-## Working with Markdown
+> A dark, high-contrast theme fusing Omni's deep obsidian interface with vibrant Dracula neon syntax highlights.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## ✨ Features
 
-## For more information
+- **Deep Obsidian Workbench:** Clean, distraction-free UI inspired by Omni Theme.
+- **Electric Neon Syntax:** High-legibility token coloring directly inspired by Dracula Theme.
+- **Eye Care & High Contrast:** Carefully balanced contrast ratios for long coding sessions.
+- **Multi-language Support:** Optimized highlights for Python, C#, JavaScript, TypeScript, React, HTML, CSS, and more.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+## 📸 Preview
+
+![Obsidian Neon Github](https://github.com/Matheus-dCastro/obsidian-neon-thema.git)
+
+---
+
+## 🚀 Installation
+
+1. Open **VS Code**.
+2. Press `Ctrl + P` (or `Cmd + P` on macOS).
+3. Type:
+   ```text
+   ext install Alomyr.obsidian-neon

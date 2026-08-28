@@ -1,28 +1,21 @@
 {
   "name": "obsidian-neon",
-  "displayName": "Obsidian-Neon",
-  "description": "A sleek obsidian dark theme with vibrant neon syntax highlights designed for clarity and focus.",
-  "version": "0.0.1",
+  "displayName": "Obsidian Neon",
+  "description": "A dark, high-contrast theme fusing Omni's deep interface with vibrant Dracula neon syntax.",
+  "version": "1.0.0",
+  "publisher": "Alomyr",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
   ],
-  "extensionDependencies": [
-    "pkief.material-icon-theme"
-  ],
   "contributes": {
     "themes": [
       {
-        "label": "Obsidian Neon (Omni)",
+        "label": "Obsidian Neon",
         "uiTheme": "vs-dark",
-        "path": "./themes/Obsidian Neon-color-theme.json"
-      },
-      {
-        "label": "Obsidian Neon (Dracula)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Obsidian Neon Dracula-color-theme.json"
+        "path": "./themes/obsidian-neon-color-theme.json"
       }
     ]
   }
