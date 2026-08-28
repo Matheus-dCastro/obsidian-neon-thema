@@ -1360,5 +1360,28 @@
     "lsp": true
   },
   "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
-  "terminal.integrated.suggest.quickSuggestions": true
+  "terminal.integrated.suggest.quickSuggestions": true,
+  "editor.tokenColorCustomizations": {
+    "comments": {
+      "foreground": "#7862a4",
+      "fontStyle": "italic"
+    },
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.line",
+          "comment.block",
+          "comment.block.documentation",
+          "punctuation.definition.comment",
+          "string.quoted.docstring"
+        ],
+        "settings": {
+          "foreground": "#7862a4",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
 }
