@@ -6,10 +6,11 @@
 
 ## 🎨 Themes Included
 
-Obsidian Neon comes with **2 theme variants**:
+Obsidian Neon comes with **3 theme variants**:
 
 1. **Obsidian Neon (Default)** — Omni-inspired deep obsidian canvas (`#191525`) combined with ultra-crisp neon syntax.
 2. **Obsidian Neon (Dracula)** — Dracula-infused dark aesthetics with high-contrast neon accents and signature purple glow.
+3. **Obsidian Neon (Dracula Syntax)** — Merges the deep obsidian workbench and icons of Obsidian Neon Default with the vibrant syntax/font colors of Dracula.
 
 ---
 
@@ -36,7 +37,7 @@ Obsidian Neon comes with **2 theme variants**:
    ```text
    ext install Alomyr.obsidian-neon
    ```
-4. Choose your preferred variant: **Obsidian Neon** or **Obsidian Neon (Dracula)** via `Ctrl + K, Ctrl + T`.
+4. Choose your preferred variant: **Obsidian Neon**, **Obsidian Neon (Dracula)**, or **Obsidian Neon (Dracula Syntax)** via `Ctrl + K, Ctrl + T`.
 
 ---
 

@@ -2,6 +2,11 @@
 
 All notable changes to the "obsidian-neon" extension will be documented in this file.
 
+## [1.2.0]
+
+### Added
+- **Obsidian Neon (Dracula Syntax)**: Added version 3 theme variant that integrates the workbench, window, and icon colors of the default Obsidian Neon with the syntax highlighting and letter colors of the Dracula edition.
+
 ## [1.1.0]
 
 ### Added
