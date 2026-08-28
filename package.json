@@ -1,0 +1,24 @@
+{
+  "name": "obsidian-neon",
+  "displayName": "Obsidian-Neon",
+  "description": "A sleek obsidian dark theme with vibrant neon syntax highlights designed for clarity and focus.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "extensionDependencies": [
+    "pkief.material-icon-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Obsidian Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Obsidian Neon-color-theme.json"
+      }
+    ]
+  }
+}

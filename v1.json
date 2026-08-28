@@ -1,0 +1,185 @@
+{
+  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.5,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.cursorStyle": "line",
+  "workbench.colorTheme": "Omni",
+  "workbench.preferredDarkColorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editor.background": "#191525",
+    "editorCursor.foreground": "#9d54f1be",
+    "editorCursor.background": "#d5a2ff",
+    "terminalCursor.foreground": "#8888CC",
+    "terminalCursor.background": "#d5a2ff",
+    "editor.selectionBackground": "#8888CC55",
+    "editor.selectionHighlightBackground": "#8888CC33",
+    "focusBorder": "#9d54f1be",
+    "list.activeSelectionForeground": "#8854F1",
+    "list.inactiveSelectionBackground": "#8854F122",
+    "editor.lineHighlightBackground": "#8854F115",
+    "editorGroup.border": "#a955f7",
+    "tab.activeBorder": "#a855f7",
+    "tab.activeBorderTop": "#a855f7",
+    "editorGroupHeader.noTabsBackground": "#0f0f0f",
+    "activityBar.background": "#030005",
+    "tab.unfocusedActiveBorder": "#444",
+    "tab.unfocusedActiveBorderTop": "#444"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword.control",
+          "storage.type",
+          "keyword.operator.logical"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.control.flow.python",
+        "settings": {
+          "foreground": "#c379ff",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#50FA7B",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword",
+          "storage.type"
+        ],
+        "settings": {
+          "foreground": "#FF79C6",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "string"
+        ],
+        "settings": {
+          "foreground": "#F1FA8C"
+        }
+      },
+      {
+        "scope": [
+          "variable",
+          "identifier"
+        ],
+        "settings": {
+          "foreground": "#F8F8F2"
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric"
+        ],
+        "settings": {
+          "foreground": "#BD93F9"
+        }
+      }
+    ]
+  },
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "white",
+      "backgroundColor": "#A347BA",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "BUG:",
+      "color": "white",
+      "backgroundColor": "#FF0000",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "REVIEW:",
+      "color": "white",
+      "backgroundColor": "#4A90E2",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "DEBUG:",
+      "color": "white",
+      "backgroundColor": "#FF6B6B",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "HACK:",
+      "color": "white",
+      "backgroundColor": "#FFBD2A",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "NOTE:",
+      "color": "white",
+      "backgroundColor": "#25AE60",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "FIXME:",
+      "color": "white",
+      "backgroundColor": "#FF5252",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "OPTIMIZE:",
+      "color": "white",
+      "backgroundColor": "#FF9800",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "DEPRECATED:",
+      "color": "white",
+      "backgroundColor": "#795548",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "SECURITY:",
+      "color": "white",
+      "backgroundColor": "#E74C3C",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "PERFORMANCE:",
+      "color": "white",
+      "backgroundColor": "#9B59B6",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "REFACTOR:",
+      "color": "white",
+      "backgroundColor": "#3498DB",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "TEST:",
+      "color": "white",
+      "backgroundColor": "#2ECC25",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "DOCS:",
+      "color": "white",
+      "backgroundColor": "#16A090",
+      "borderRadius": "2px"
+    }
+  ]
+}
