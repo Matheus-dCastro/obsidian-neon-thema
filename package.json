@@ -15,9 +15,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Obsidian Neon",
+        "label": "Obsidian Neon (Omni)",
         "uiTheme": "vs-dark",
         "path": "./themes/Obsidian Neon-color-theme.json"
+      },
+      {
+        "label": "Obsidian Neon (Dracula)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Obsidian Neon Dracula-color-theme.json"
       }
     ]
   }
