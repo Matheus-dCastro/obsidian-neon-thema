@@ -2,7 +2,7 @@
   "name": "obsidian-neon-110",
   "displayName": "Obsidian Neon Theme",
   "description": "A dark, high-contrast theme fusing Omni's deep interface with vibrant Dracula neon syntax.",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "publisher": "Alomyr",
   "repository": {
     "type": "git",
@@ -11,6 +11,14 @@
   "engines": {
     "vscode": "^1.80.0"
   },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "extensionDependencies": [
+    "PKief.material-icon-theme",
+    "usernamehw.errorlens"
+  ],
   "categories": [
     "Themes"
   ],
@@ -30,6 +38,12 @@
         "label": "Obsidian Neon (Dracula Syntax)",
         "uiTheme": "vs-dark",
         "path": "./themes/obsidian-neon-dracula-syntax-color-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "obsidianNeon.applyRecommendedSettings",
+        "title": "Obsidian Neon: Ativar Configurações Recomendadas (Inlay Hints, Terminal, etc.)"
       }
     ]
   }
