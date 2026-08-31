@@ -1,8 +1,8 @@
 {
-  "name": "obsidian-neon-110",
+  "name": "obsidian-neon-theme",
   "displayName": "Obsidian Neon Theme",
   "description": "A dark, high-contrast theme fusing Omni's deep interface with vibrant Dracula neon syntax.",
-  "version": "1.2.32",
+  "version": "1.2.4",
   "publisher": "Alomyr",
   "icon": "assets/icon.png",
   "repository": {
