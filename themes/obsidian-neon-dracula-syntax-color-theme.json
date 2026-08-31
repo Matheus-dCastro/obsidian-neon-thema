@@ -1045,7 +1045,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FF79C6"
+        "foreground": "#7862a4"
       },
       "name": "Custom (comment, keyword.control, storage.type, keyword.operator.logical)"
     },
