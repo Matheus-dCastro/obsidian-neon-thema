@@ -1233,6 +1233,12 @@
       "foreground": "#7862a4",
       "fontStyle": "italic"
     },
+      "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "property": "#8BE9FD",
+    },
+  },
     "textMateRules": [
       {
         "scope": [
