@@ -77,9 +77,59 @@ Obsidian Neon provides **3 theme variants**:
 
 ```text
 ext install Alomyr.obsidian-neon
-
-Press Ctrl + K, Ctrl + T to switch between Obsidian Neon, Obsidian Neon (Dracula), or Obsidian Neon (Dracula Syntax).
 ```
+
+Press `Ctrl + K, Ctrl + T` to switch between **Obsidian Neon**, **Obsidian Neon (Dracula)**, or **Obsidian Neon (Dracula Syntax)**.
+
+---
+
+## ⚡ Quick Setup via Command Palette (`Ctrl + Shift + P`)
+
+Obsidian Neon provides built-in commands so you can set up fonts, ligatures, highlight, and terminal autocomplete in one click:
+
+### 1. 🔤 Ativar Fonte, Highlight e Autocomplete do Terminal
+> **Command:** `Obsidian Neon: Ativar Fonte e Configurações (Highlight, Terminal Autocomplete, Ligaduras)`  
+> **Shortcut:** Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) and type **`Ativar Fonte`**.
+
+This command automatically:
+* **Installs Maple Mono & Maple Mono NF** into your operating system:
+  * **Windows:** `%LOCALAPPDATA%\Microsoft\Windows\Fonts` and registers in `HKCU` font registry (no admin required).
+  * **Ubuntu / Linux:** `~/.local/share/fonts/MapleMono` and runs `fc-cache -f`.
+  * **macOS:** `~/Library/Fonts`.
+* **Configures Font Family & Ligatures:**
+  * **Ubuntu / Linux:** Automatically prioritizes Nerd Font (`'Maple Mono NF', 'Maple Mono', monospace`).
+  * **Windows / macOS:** Uses `'Maple Mono', 'Maple Mono NF', monospace`.
+  * **Terminal:** Uses `'Maple Mono NF', 'Maple Mono', monospace` for rich terminal glyphs and icons.
+  * **Ligatures:** Automatically enables `"editor.fontLigatures": true`.
+* **Activates Highlighting ("higthline"):**
+  * Full line highlighting (`"editor.renderLineHighlight": "all"`).
+  * Smooth caret animations & expanded blinking (`"editor.cursorSmoothCaretAnimation": "on"`, `"editor.cursorBlinking": "expand"`).
+  * Line highlight and selection colors in `workbench.colorCustomizations`.
+* **Activates Terminal Autocomplete:**
+  * Integrated shell suggestions and command completions (`terminal.integrated.suggest.*`).
+
+---
+
+### 2. 📦 Instalar Fontes no Sistema Operacional
+> **Command:** `Obsidian Neon: Instalar Fonte Maple Mono e Maple Mono NF`  
+> **Shortcut:** Press `Ctrl + Shift + P` and type **`Instalar Fonte`**.
+
+Installs the included Maple Mono TrueType (`.ttf`) font suite directly into your OS font storage and configures font family settings.
+
+---
+
+### 3. ⚙️ Ativar Todas as Configurações Recomendadas
+> **Command:** `Obsidian Neon: Ativar Configurações Recomendadas (Inlay Hints, Terminal, etc.)`  
+> **Shortcut:** Press `Ctrl + Shift + P` and type **`Ativar Configurações`**.
+
+Applies everything in one click:
+* Fonts & ligatures.
+* Line highlight & terminal autocomplete.
+* Inlay hints for Python, TypeScript, JavaScript, C#, Java, Kotlin, and C/C++.
+* Python default formatter (Black).
+
+---
+
 ## 💡 Setting Up Inlay Hints by Language
 
 Inlay hints show inline parameter names, inferred variable types, and return types directly inside your editor.
