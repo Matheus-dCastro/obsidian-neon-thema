@@ -1056,12 +1056,35 @@
       "name": "Custom (comment, keyword.control, storage.type, keyword.operator.logical)"
     },
     {
-      "scope": "keyword.control.flow.python",
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.control.import",
+        "keyword.control.import.python"
+      ],
       "settings": {
-        "foreground": "#c379ff",
+        "foreground": "#FF79C6",
         "fontStyle": "italic"
       },
-      "name": "Custom (keyword.control.flow.python)"
+      "name": "Custom (keyword.control.flow.python, keyword.control.import)"
+    },
+    {
+      "scope": [
+        "keyword.control.flow"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      },
+      "name": "Custom (keyword.control.flow)"
+    },
+    {
+      "scope": [
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#C061FF"
+      },
+      "name": "Custom (support.type, support.class)"
     },
     {
       "scope": "entity.name.function",
@@ -1105,8 +1128,12 @@
     "variable": "#F8F8F2",
     "variable.readonly": "#BD93F9",
     "variable.defaultLibrary": "#78D1E1",
-    "property": "#E1E1E6",
+    "property": "#8BE9FD",
     "property.readonly": "#BD93F9",
+    "namespace": {
+      "foreground": "#8BE9FD",
+      "fontStyle": "italic"
+    },
     "function": {
       "foreground": "#50FA7B",
       "fontStyle": "bold"
@@ -1137,12 +1164,15 @@
     },
     "string": "#F1FA8C",
     "number": "#BD93F9",
-    "type": "#78D1E1",
-    "type.defaultLibrary": "#78D1E1",
-    "class": {
-      "foreground": "#988bc7",
+    "type": "#C061FF",
+    "typeParameter": "#C061FF",
+     "type.defaultLibrary": "#8BE9FD",
+      "typeParameter": "#C061FF",
+    "class":{
+      "foreground":"#C061FF",
       "fontStyle": "bold"
-    },
+    } ,
+    "type.defaultLibrary": "#78D1E1",
     "interface": "#78D1E1",
     "enum": "#78D1E1",
     "enumMember": "#BD93F9",
@@ -1232,6 +1262,7 @@
   "terminal.integrated.suggest.providers": {
     "lsp": true
   },
+
   "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
   "terminal.integrated.suggest.quickSuggestions": true,
   "editor.tokenColorCustomizations": {
@@ -1255,5 +1286,5 @@
         }
       }
     ]
-  },
+  }
 }

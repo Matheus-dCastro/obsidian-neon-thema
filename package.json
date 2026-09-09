@@ -2,7 +2,7 @@
   "name": "obsidian-neon-110",
   "displayName": "Obsidian Neon Theme",
   "description": "A dark, high-contrast theme fusing Omni's deep interface with vibrant Dracula neon syntax.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "publisher": "Alomyr",
   "icon": "assets/icon.png",
   "repository": {
@@ -42,6 +42,14 @@
       }
     ],
     "commands": [
+      {
+        "command": "obsidianNeon.activateFontAndSettings",
+        "title": "Obsidian Neon: Ativar Fonte e Configurações (Highlight, Terminal Autocomplete, Ligaduras)"
+      },
+      {
+        "command": "obsidianNeon.installFonts",
+        "title": "Obsidian Neon: Instalar Fonte Maple Mono e Maple Mono NF"
+      },
       {
         "command": "obsidianNeon.applyRecommendedSettings",
         "title": "Obsidian Neon: Ativar Configurações Recomendadas (Inlay Hints, Terminal, etc.)"

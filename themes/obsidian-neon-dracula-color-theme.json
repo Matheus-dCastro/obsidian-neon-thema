@@ -1162,12 +1162,35 @@
       "name": "Custom (comment, keyword.control, storage.type, keyword.operator.logical)"
     },
     {
-      "scope": "keyword.control.flow.python",
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.control.import",
+        "keyword.control.import.python"
+      ],
       "settings": {
-        "foreground": "#c379ff",
+        "foreground": "#FF79C6",
         "fontStyle": "italic"
       },
-      "name": "Custom (keyword.control.flow.python)"
+      "name": "Custom (keyword.control.flow.python, keyword.control.import)"
+    },
+    {
+      "scope": [
+        "keyword.control.flow"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      },
+      "name": "Custom (keyword.control.flow)"
+    },
+    {
+      "scope": [
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#C061FF"
+      },
+      "name": "Custom (support.type, support.class)"
     },
     {
       "scope": "entity.name.function",
@@ -1221,8 +1244,12 @@
     "variable": "#F8F8F2",
     "variable.readonly": "#BD93F9",
     "variable.defaultLibrary": "#8BE9FD",
-    "property": "#F8F8F2",
+    "property": "#8BE9FD",
     "property.readonly": "#BD93F9",
+    "namespace": {
+      "foreground": "#8BE9FD",
+      "fontStyle": "italic"
+    },
     "function": {
       "foreground": "#50FA7B",
       "fontStyle": "bold"
@@ -1253,12 +1280,15 @@
     },
     "string": "#F1FA8C",
     "number": "#BD93F9",
-    "type": "#8BE9FD",
-    "type.defaultLibrary": "#8BE9FD",
-    "class": {
-      "foreground": "#BD93F9",
+    "type": "#C061FF",
+    "typeParameter": "#C061FF",
+     "type.defaultLibrary": "#8BE9FD",
+     "typeParameter": "#C061FF",
+    "class":{
+      "foreground":"#C061FF",
       "fontStyle": "bold"
-    },
+    } ,
+    "type.defaultLibrary": "#8BE9FD",
     "interface": "#8BE9FD",
     "enum": "#8BE9FD",
     "enumMember": "#BD93F9",
@@ -1371,5 +1401,5 @@
         }
       }
     ]
-  },
+  }
 }
