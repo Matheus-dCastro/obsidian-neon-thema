@@ -191,7 +191,8 @@ Paste the following JSON block into your settings.json (Ctrl + Shift + P -> Pref
 
     {
       "workbench.colorTheme": "Obsidian Neon",
-      "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', monospace",
+      "editor.fontFamily": "'Maple Mono', 'Maple Mono NF', monospace",
+      "terminal.integrated.fontFamily": "'Maple Mono NF', 'Maple Mono', monospace",
       "editor.fontLigatures": true,
       "editor.fontSize": 15,
       "editor.letterSpacing": 0.5,
